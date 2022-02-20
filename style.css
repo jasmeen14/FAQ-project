@@ -36,18 +36,18 @@
     font-size: 20px;
 }
 
-.question-text{
+.question-text {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 1.4s ease;
-  
+    transition: max-height 1.4s ease;     
 }
+
 .question-text p{
     padding-top: 1rem;
     line-height: 1.6;
     font-size: 20px;
 }
-.question .active .question-text{
+.question.active .question-text{
 max-height: 300px;
 animation: fade 1s ease-in-out;
 }
@@ -68,19 +68,3 @@ svg{
     }
 }
 
-/*
- .question-text{
-    display: none;
- }
- .show-text .question-text{
-     display: block;
- }
- .minus-icon{
-     display: none;
- }
- .show-text .minus-icon{
-     display: inline;
- }
- .show-text .plus-icon{
-     display: none;
- }*/
