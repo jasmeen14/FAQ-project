@@ -1,13 +1,11 @@
-/* const btns= document.querySelectorAll('question-btn');
-btns.forEach(function(btn){
-btn.addEventListener("click",function(e){ // e is event object
-    const question = e.currentTarget.parentElement.parentElement;
-    question.classList.toggle("show-text");
-});
-}); */
+const questions = document.querySelectorAll(".question");
 
-const questions = document.querySelectorAll("question");
-
-questions.forEach(function (question){
+questions.forEach(question => {
    // console.log(question);
-});
+  
+   question.addEventListener("click",() =>{
+   question.classList.toggle("active");
+    
+   })
+
+   })
